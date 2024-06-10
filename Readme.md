@@ -277,3 +277,17 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
+Running the code:
+
+download the models: https://bit.ly/3P7UdZ6
+python3 -m pip install opencv-python
+python3 -m pip install torch
+python3 -m pip install onnxruntime
+
+Place the weights (onnx in the playground folder)
+tested:
+python3 -m run_local_network_on_images_onnxruntime --model_path yolov7-W25-960px-newDefaults-bs144-best-topk-200.onnx
+
+
+
+
